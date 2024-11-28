@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidoService", "PedidoService\PedidoService.csproj", "{90C2B18C-F9D9-4A8B-B315-B5884D5EE098}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagamentoService", "PagamentoService\PagamentoService.csproj", "{C03E1E44-B999-4A40-A1ED-1057FF97B981}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages.Shared\Messages.csproj", "{9F1F9FD8-DFF3-4CDB-A0F6-2A8F902D8DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregadorService", "EntregadorService\EntregadorService.csproj", "{2770C27C-6DD3-4980-812B-5491ECA4D26F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9F1F9FD8-DFF3-4CDB-A0F6-2A8F902D8DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1F9FD8-DFF3-4CDB-A0F6-2A8F902D8DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1F9FD8-DFF3-4CDB-A0F6-2A8F902D8DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2770C27C-6DD3-4980-812B-5491ECA4D26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2770C27C-6DD3-4980-812B-5491ECA4D26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2770C27C-6DD3-4980-812B-5491ECA4D26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2770C27C-6DD3-4980-812B-5491ECA4D26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

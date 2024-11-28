@@ -3,7 +3,7 @@ using Microsoft.Extensions.Hosting;
 
 var builder = Host.CreateApplicationBuilder();
 
-var endpointConfiguration = new EndpointConfiguration("PagamentoService");
+var endpointConfiguration = new EndpointConfiguration("EntregadorService");
 endpointConfiguration.UseSerialization<SystemJsonSerializer>();
 var transport = endpointConfiguration
     .UseTransport<RabbitMQTransport>()
